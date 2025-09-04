@@ -35,6 +35,13 @@ body {
 .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 @media (max-width: 900px){ .grid-3 { grid-template-columns: 1fr; } }
 
+@media (max-width: 600px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
 /* --- Cards --- */
 .card {
   background: var(--card);
