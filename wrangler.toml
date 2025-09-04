@@ -1,2 +1,5 @@
 name = "rethread"
 pages_build_output_dir = ".vercel/output/static"
+
+compatibility_date = "2025-09-04"
+compatibility_flags = ["nodejs_compat"]
