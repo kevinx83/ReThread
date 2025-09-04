@@ -16,7 +16,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={80}>
             <p>
-              At Re:Thread, we connect pre-loved clothing with the people who need it most in and around Vancouver, BC.
+              At Re:Thread, we connect donated clothing with the people who need it most in and around Vancouver, BC.
               By partnering with local hospitals, schools, and community organizations,
               we make sure every donated item finds a new home.
             </p>
