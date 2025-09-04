@@ -93,7 +93,7 @@ export default function Home() {
               <div className="card hover-lift">
                 <div className="icon" aria-hidden>🧺</div>
                 <h3>Donate</h3>
-                <p>Anyone can drop clean, gently used clothing at any Re:Thread bin. Find our bins by pressing the "Donate Clothes" button above.</p>
+                <p>Anyone can drop clean, gently used clothing at any Re:Thread bin. Find our bins by pressing the &quot;Donate Clothes&quot; button above.</p>
               </div>
             </Reveal>
             <Reveal delay={80}>
