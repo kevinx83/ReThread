@@ -1,12 +1,71 @@
+// app/layout.tsx
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Script from "next/script";
+import type { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Re:Thread Foundation",
-  description: "Nonprofit connecting unused clothing to institutions in need.",
+const siteUrl = new URL("https://rethreadfoundation.ca");
+
+export const metadata: Metadata = {
+  metadataBase: siteUrl,
+  title: {
+    default: "Re:Thread Foundation",
+    template: "%s — Re:Thread Foundation",
+  },
+  description:
+    "Re:Thread Foundation is a nonprofit in Metro Vancouver connecting unused clothing to hospitals, schools, and community organizations in need.",
+  keywords: [
+    "Re:Thread Foundation",
+    "clothing donation Vancouver",
+    "nonprofit BC",
+    "sustainable fashion",
+    "textile reuse",
+    "donation bins",
+    "community outreach",
+    "circular economy",
+    "volunteer Vancouver",
+  ],
+  authors: [{ name: "Re:Thread Foundation" }],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: siteUrl,
+    siteName: "Re:Thread Foundation",
+    title: "Re:Thread Foundation — Giving Clothes a Second Life",
+    description:
+      "We connect donated clothing with the people who need it most in and around Vancouver, BC.",
+    images: [
+      {
+        url: "/og.png", // Place a 1200x630 image in /public/og.png
+        width: 1200,
+        height: 630,
+        alt: "Re:Thread Foundation logo",
+      },
+    ],
+    locale: "en_CA",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Re:Thread Foundation — Giving Clothes a Second Life",
+    description:
+      "Connecting unused clothing to people in need across Metro Vancouver.",
+    images: ["/og.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
