@@ -2,7 +2,7 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 // Log once at module load to confirm env present
 console.log("[contact] RESEND_API_KEY present:", Boolean(process.env.RESEND_API_KEY));
