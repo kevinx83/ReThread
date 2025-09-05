@@ -21,16 +21,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <span>
               Follow us on{" "}
               <a
-                href="https://www.linkedin.com/company/rethread"
+                href="https://www.linkedin.com/company/re-thread-foundation/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
             </span>
-            <a className="btn btn-primary" href="#contact">
-              Contact Us!
-            </a>
+            <a className="btn btn-primary" href="/contact">Contact Us!</a>
+
           </div>
         </header>
 

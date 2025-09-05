@@ -23,7 +23,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={140}>
             <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap", marginTop: 10 }}>
-              <a className="btn btn-primary" href="#">Donate Clothes</a>
+              <a className="btn btn-primary" href="/donate">Donate Clothes</a>
             </div>
           </Reveal>
         </div>
@@ -157,24 +157,27 @@ export default function Home() {
               <div className="card hover-lift">
                 <h3>Volunteer</h3>
                 <p>Help with pickups, collection, sorting, and deliveries.</p>
-                <a className="btn btn-secondary" href="#">Sign Up</a>
               </div>
             </Reveal>
             <Reveal delay={80}>
               <div className="card hover-lift">
                 <h3>Host a Bin</h3>
                 <p>Bring a donation point to your business, school, or building.</p>
-                <a className="btn btn-secondary" href="#">Apply</a>
               </div>
             </Reveal>
             <Reveal delay={160}>
               <div className="card hover-lift">
                 <h3>Partner With Us</h3>
                 <p>Organizations and institutions—let’s collaborate.</p>
-                <a className="btn btn-secondary" href="#">Contact us!</a>
               </div>
             </Reveal>
           </div>
+          <Reveal delay={200}>
+            <div style={{ textAlign: "center", marginTop: "30px" }}>
+              <a className="btn btn-primary" href="/contact">Contact Us!</a>
+
+            </div>
+          </Reveal>
         </div>
       </section>
     </main>
