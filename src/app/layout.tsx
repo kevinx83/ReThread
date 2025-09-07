@@ -11,13 +11,13 @@ const siteUrl = new URL("https://rethreadfoundation.ca");
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: {
-    default: "Re:Thread Foundation",
-    template: "%s — Re:Thread Foundation",
+    default: "ReThread Foundation",
+    template: "%s — ReThread Foundation",
   },
   description:
-    "Re:Thread Foundation is a nonprofit in Metro Vancouver connecting unused clothing to hospitals, schools, and community organizations in need.",
+    "ReThread Foundation is a nonprofit in Metro Vancouver connecting unused clothing to hospitals, schools, and community organizations in need.",
   keywords: [
-    "Re:Thread Foundation",
+    "ReThread Foundation",
     "clothing donation Vancouver",
     "nonprofit BC",
     "sustainable fashion",
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
     "circular economy",
     "volunteer Vancouver",
   ],
-  authors: [{ name: "Re:Thread Foundation" }],
+  authors: [{ name: "ReThread Foundation" }],
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "Re:Thread Foundation",
-    title: "Re:Thread Foundation — Giving Clothes a Second Life",
+    siteName: "ReThread Foundation",
+    title: "ReThread Foundation — Giving Clothes a Second Life",
     description:
       "We connect donated clothing with the people who need it most in and around Vancouver, BC.",
     images: [
@@ -43,14 +43,14 @@ export const metadata: Metadata = {
         url: "/og.png", // Place a 1200x630 image in /public/og.png
         width: 1200,
         height: 630,
-        alt: "Re:Thread Foundation logo",
+        alt: "ReThread Foundation logo",
       },
     ],
     locale: "en_CA",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Re:Thread Foundation — Giving Clothes a Second Life",
+    title: "ReThread Foundation — Giving Clothes a Second Life",
     description:
       "Connecting unused clothing to people in need across Metro Vancouver.",
     images: ["/og.png"],

@@ -10,13 +10,13 @@ export default function Home() {
         <div className="container hero-inner">
           <Reveal>
             <h1>
-              Re:Thread Foundation: <br />
+              ReThread Foundation: <br />
               Giving Clothes a <span className="gradient-text">Second Life</span>
             </h1>
           </Reveal>
           <Reveal delay={80}>
             <p>
-              At Re:Thread, we connect donated clothing with the people who need it most in and around Vancouver, BC.
+              At ReThread, we connect donated clothing with the people who need it most in and around Vancouver, BC.
               By partnering with local hospitals, schools, and community organizations,
               we make sure every donated item finds a new home.
             </p>
@@ -46,12 +46,12 @@ export default function Home() {
       {/* --- ABOUT --- */}
       <section className="section">
         <div className="container">
-          <Reveal><h2>About Re:Thread</h2></Reveal>
+          <Reveal><h2>About ReThread</h2></Reveal>
           <Reveal delay={60}>
             <p className="sub">
               Recent research found that Canadians disposed of nearly 500 million kilograms of textiles in a single calendar year.
               Much of this clothing could have been reused to help those in need. This is why we are
-              dedicated to giving clothes a second chance. At Re:Thread, we collect donations from the local community,
+              dedicated to giving clothes a second chance. At ReThread, we collect donations from the local community,
               sort, and prepare them with the help of our volunteers, who deliver them directly to homeless shelters,
               rehabilitation centers, housing programs, and any institutions in need. Our goal is simple: reduce clothing waste
               while making sure the people who need it most have access to clean, quality clothing. Join us on our journey to
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="card hover-lift">
               <h3>The Founders</h3>
               <p>
-                Re:Thread Foundation was first imagined in September 2024 by UBC students{" "}
+                ReThread Foundation was first imagined in September 2024 by UBC students{" "}
                 <a href="https://www.linkedin.com/in/kevinx83" target="_blank" rel="noopener noreferrer">
                   Kevin Xu
                 </a>{" "}
@@ -72,7 +72,7 @@ export default function Home() {
                 </a>{" "}
                 who wanted to start a club at their school dedicated to giving clothing a new-found purpose. Eventually they decided to pursue their
                 vision more directly and create a non-profit. After months of doubt, planning, and more doubt,
-                Re:Thread became an officially incorporated BC society on June 23rd, 2025.
+                ReThread became an officially incorporated BC society on June 23rd, 2025.
               </p>
 
             </div>
@@ -93,7 +93,7 @@ export default function Home() {
               <div className="card hover-lift">
                 <div className="icon" aria-hidden>🧺</div>
                 <h3>Donate</h3>
-                <p>Anyone can drop off clean, gently used clothing at any Re:Thread bin. Find our bins by pressing the &quot;Donate Clothes&quot; button above.</p>
+                <p>Anyone can drop off clean, gently used clothing at any ReThread bin. Find our bins by pressing the &quot;Donate Clothes&quot; button above.</p>
               </div>
             </Reveal>
             <Reveal delay={80}>
